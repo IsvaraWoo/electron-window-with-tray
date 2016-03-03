@@ -17,8 +17,7 @@ app.on('ready', function(){
   // Create a tray with given icon.
   appTray = new Tray('./app.ico');
   // Create contextMenu with menu items.
-  var contextMenu = Menu.buildFromTemplate([
-    {
+  var contextMenu = Menu.buildFromTemplate([{
       label: 'Exit',
       type: 'normal',
       // Handler for click event.
@@ -45,7 +44,8 @@ app.on('ready', function(){
     if(!mainWindow) {
       mainWindow = new BrowserWindow({
         width: 800, 
-        height: 600
+        height: 600,
+        frame: false
       });
       // Hide the menu.
       mainWindow.setMenu(null);

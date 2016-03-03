@@ -14,6 +14,14 @@ A basic Electron application needs just these files:
 
 You can learn more about each of these components within the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start).
 
+
+## New features
+
+**2016-03-03**
+
+Implement a frameless main window, and movable when drag on blue title area (a H1 element). [more info...](https://github.com/atom/electron/blob/master/docs/api/frameless-window.md)
+
+
 ## To Use
 
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
